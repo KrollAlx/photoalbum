@@ -1,24 +1,12 @@
-# client
+ФОТОАЛЬБОМ
 
-## Project setup
-```
-npm install
-```
+Возможности: регистрация, авторизация, создание личных альбомов, просмотр добавление и редактирование фотографий,
+возможность ставить лайки и писать комментарии, просматривать популярные альбомы.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Стэк: 
+Frontend - Vue 2, Vuex, vue-router, vuetify.
+Backend - Django, Django rest framework.
+СУБД - PostgreSQL.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Будующие доработки: возможность просматривать альбомы других пользователей, если владелец альбома сделал его открытым
 
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
